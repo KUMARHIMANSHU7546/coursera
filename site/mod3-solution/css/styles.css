@@ -1,0 +1,55 @@
+.navbar-brand h1{
+	font-size: 1.5em
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	position: absolute;
+}
+
+header .container{
+	text-align: left;
+}
+#header-nav {
+	background-color: lightgreen;
+	border-radius: 0;
+	border:0;
+}
+
+
+#nav-list{
+    text-align: center;
+}
+
+.box{
+	width: 100%;
+	border: 2px solid ;
+	padding: 5px 5px 5px 5px;
+}
+
+
+@media(max-width: 767px){
+	.navbar-brand{
+		padding-top: 10px;
+		height: 40px;
+	}
+	.navbar-brand h1{
+		padding-top:10px;
+		font-size:5vw; 
+	}
+	.navbar-brand p{
+		font-size: .6em;
+		margin-top: 12px;
+	}
+	.navbar-brand p img{
+		height: 20px;
+	}
+	#collapsable-nav a {
+		font-size: 1.2em;
+	}
+	#collapsable-nav a span{
+		font-size: 1em;
+		margin:5px;
+	}
+}	
